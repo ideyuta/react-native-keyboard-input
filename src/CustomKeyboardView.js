@@ -1,5 +1,6 @@
-import React, {Component, PropTypes} from 'react';
+import React, {Component} from 'react';
 import {Platform, requireNativeComponent} from 'react-native';
+import PropTypes from 'prop-types';
 import TextInputKeyboardManagerIOS from './TextInputKeyboardMangerIOS';
 import TextInputKeyboardManagerAndroid from './TextInputKeyboardManagerAndroid';
 import KeyboardRegistry from './KeyboardsRegistry';
